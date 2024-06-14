@@ -11,6 +11,7 @@ public class HomeController {
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
 
+	//Home 요청
 	@GetMapping(value={"/home"})
 	public String showHomePage() {
 		return "home";
